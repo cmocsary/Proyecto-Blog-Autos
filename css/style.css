@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Suez One", serif;
+}
+
+btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+}
+
+.KeepRollingBrandTypo {
+  font-family: "Suez One", serif;
+}
+
+.contacto {
+  background: rgba(116, 115, 115, 0.534);
+}
+
+.texto {
+  font-family: "Open Sans", sans-serif;
+}
+
+.imagenNosotros {
+  width: 150px;
+}
+
+.efectoCateg:hover {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  transition: 400ms;
+  box-shadow: #414345;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+}
+.btn-grad {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#imgError404{
+  width: 800px;
+}
+
+@media all and (max-width: 576px) {
+  .slider-responsive {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .offpublicidad {
+    display: none;
+  }
+}
+
+.logoRadius{
+    border-radius: 50%;
+}
+
+@media all and (max-width: 576px){
+    .centradoResponsive{
+        text-align: center;
+    }
+}
+
+.KeepRollingBrandTypo{
+  font-family: 'Suez One', serif;
+  }
+  
+  .moviCard:hover{
+      position: relative;
+      transition: 500ms;
+      transform: rotate(6deg) scale(1.4);
+  }
+  
+  .titulobg{
+      background-color: black;
+  }
+  
+  .patras{
+      z-index: -1;
+  }
+  
+  .card{
+      background-color: transparent;
+  }
+  
+  @media screen and (max-width: 992px) {
+      .marVideo{
+          margin-top: 50px ;
+          margin-bottom: 50px;
+      }
+      .altoV{
+          height: 350px;
+      }
+      
+    }
+  
+  @media screen and (max-width: 992px) {
+      .anchoImg{
+          height: 100%;
+      }
+      
+    }
+    

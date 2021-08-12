@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="login de keeprolling" />
+    <meta name="keywords" content="login keeprolling iniciar sesión" />
+    <meta name="author" content="Grupo 3 comisión 16i" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="/img/Iconshock-Global-Warming-Wheel.ico" type="image/x-icon">
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/9a02cb5bab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Keep Rolling</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="../img/logo.png" alt="logo keep rolling" width="100" class="rounded-circle">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarKeepRolling" aria-controls="navbarKeepRolling" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarKeepRolling">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/acercaDeNosotros.html">Acerca de nosotros</a>
+              </li>
+              <div>
+                <button class="btn btn-danger" type="submit" data-bs-target="#modalSuscripcion" data-bs-toggle="modal">Suscribirse
+                </button>
+              </div>
+              <div>
+                <a href="login.html" class="text-secondary mx-2" target="_blank" >
+                  <i class="far fa-user text-light fa-2x"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article class="row g-0">
+        <div class="col-sm-12 col-md-6 py-4 bg-warning">
+          <h1 class="text-center display-2">KeepRolling</h1>
+          <hr />
+          <form class="p-3 mb-3">
+            <div class="my-2">
+              <label for="email" class="form-label lead"
+                >Email <span class="text-danger">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control border border-dark"
+                id="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <hr />
+            <div class="my-2">
+              <label for="loginContraseña" class="form-label lead"
+                >Contraseña <span class="text-danger">*</span></label
+              >
+              <input
+                type="password"
+                id="loginContraseña"
+                class="form-control border border-dark"
+                placeholder="********"
+                required
+              />
+            </div>
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modalContraseña"
+            >
+              ¿Olvidaste tu contraseña?
+            </button>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="btn btn-danger text-dark border border-dark"
+              >
+                Enviar
+              </button>
+            </div>
+            <hr />
+          </form>
+          <section>
+            <div class="row g-1 mx-3 mt-4">
+              <div class="col-sm-12 col-md-6 py-3">
+                <a href="/pages/error404.html" class="btn btn-dark lead d-flex align-items-center"
+                  ><span
+                    ><i
+                      class="fab fa-facebook-square fa-3x text-primary pe-2"
+                    ></i
+                  ></span>
+                  Logueate con Facebook</a
+                >
+              </div>
+              <div class="col-sm-12 col-md-6 py-3">
+                <a href="/pages/error404.html" class="btn btn-dark lead d-flex align-items-center"
+                  ><span
+                    ><i class="fab fa-google fa-3x text-danger pe-2"></i
+                  ></span>
+                  Logueate con Google</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img class="w-100 lamboResponsive" src="../img/lamboLogin.jpg" alt="Lamborghini" />
+        </div>
+      </article>
+    </main>
+    <!--Modal de contraseña-->
+    <div
+      class="modal fade"
+      id="modalContraseña"
+      tabindex="-1"
+      aria-labelledby="modalContraseñaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalContraseñaLabel">
+              Recuperar Contraseña
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-justify">
+              <p>
+                Deberás ingresar los datos pedidos a continuación para realizar
+                una recuperación de contraseña:
+              </p>
+              <hr />
+              <form class="p-3 mb-3">
+                <div class="py-3">
+                  <label for="email" class="form-label lead"
+                    >Email <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control border border-dark"
+                    id="email"
+                    placeholder="example@gmail.com"
+                    required
+                  />
+                </div>
+                <hr />
+                <div class="py-3">
+                  <label for="loginContraseña" class="form-label lead"
+                    >Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    id="loginContraseña"
+                    class="form-control border border-dark"
+                    placeholder="********"
+                  />
+                </div>
+                <div class="py-3">
+                  <label for="loginContraseña" class="form-label lead"
+                    >Confirmar contraseña
+                    <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="password"
+                    id="loginContraseña"
+                    class="form-control border border-dark"
+                    placeholder="********"
+                    required
+                  />
+                </div>
+                <div class="mt-2 text-center">
+                  <p>Confirma que no eres un robot:</p>
+                  <img
+                    class="w-100"
+                    src="../img/not-a-robot.png"
+                    alt="Captcha obligatorio"
+                  />
+                </div>
+                <div class="text-center pt-3">
+                  <a href="#" class="btn btn-primary">Enviar</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white bg-dark py-3 px-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 my-2 centradoResponsive">
+            <a class="navbar-brand" href="#">
+            <img class="logoRadius" src="../img/logo.png" alt="logo de keep rolling" width="100" >
+          </a>
+          </div>
+          <div class="col-sm-12 col-md-5 text-center">
+            <p>Seguinos en nuestras redes:</p>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-facebook-square fa-2x"></i
+            ></a>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-instagram-square fa-2x"></i
+            ></a>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-twitter-square fa-2x"></i
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p>Última actualización del sitio: 30 de Julio del 2021</p>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center pt-3"> &copy;Todos los derechos reservados</p>
+      </div>
+    </footer>
+    <!-- modal de suscribcion -->
+    <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="modalSuscripcionLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre y apellido</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">Juan Perez</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">juanperez@...</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-danger">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+    </div>

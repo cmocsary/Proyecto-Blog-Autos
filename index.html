@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo 3 Comision 16i">
+    <meta name="description" content="Blog de autos, camionetas">
+    <meta name="keywords" content="autos, fanaticos, motores, blog">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="/img/Iconshock-Global-Warming-Wheel.ico" type="image/x-icon">
+<script src="https://kit.fontawesome.com/564ebdd0f1.js" crossorigin="anonymous"></script>
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/60876c969e.js" crossorigin="anonymous"></script>
+
+<title>Proyecto Keep Rolling</title>
+</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand " href="index.html">
+            <img src="/img/logo.png" alt="logo keep rolling" width="100" class="rounded-circle">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarKeepRolling" aria-controls="navbarKeepRolling" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarKeepRolling">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/acercaDeNosotros.html">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/pages/entradaBlog_0.html">Blog</a>
+              </li>
+              <div>
+                <button class="btn btn-danger" type="submit" data-bs-target="#modalSuscripcion" data-bs-toggle="modal">Suscribirse
+                </button>
+              </div>
+              <div>
+                <a href="pages/login.html" class="text-secondary mx-2" target="_blank" >
+                  <i class="far fa-user text-light fa-2x"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-light"> 
+        <div id="bannerPrincipal" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#bannerPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/shelby-mustang-gt500-2019-16.jpg" class="d-block w-100 slider-responsive" alt="Mustang gt500">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                      ¡Será enjuiciado!
+                  </h5>
+                  <p class="lead texto">Ford irá a juicio en septiembre por la demanda colectiva de los Mustang Shelby GT350 que se calientan en circuito.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/Ford-F150-interior-1.jpg" class="d-block w-100 slider-responsive" alt="Interior F-150">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Impresionante</h5>
+                  <p class="lead texto">La gente de Ford Argentina nos invito a conocer el interior de las nuevas F-150 y F-150 Raptor.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/cybertruck.jpg" class="d-block w-100 slider-responsive" alt="elon musk y su cybertruck">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Pese a las criticas....</h5>
+                  <p class="lead texto">Te puede gustar o no, pero la Cybertruck de Elon Musk ya tiene mas de 250.000 reservas.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerPrincipal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerPrincipal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <section class="container bg-light text-center py-3">
+            <h1 class="display-3 my-3 text-secondary">Bienvenidos a KeepRolling <img class="mb-3 pb-1" src="/img/ezgif.com-gif-maker.gif" alt="Delorean gif"></h1>
+            <p class="mb-3 text-secondary texto lead">Esta es una web dedicada a los amantes de los autos, aqui podrás encontrar noticias sobre el mundo automotriz, analisis de nuevos lanzamientos en Argentina, debates sobre autos clasicos, criticas acerca de autos, modelos, y marcas elaboradas por parte de profesionales calificados y también por nuestra comunidad.
+            </p>
+            <p class="lead text-secondary"> ¡Te invitamos a formar parte!</p>
+            <hr>
+            <div class="row text-center my-2">
+                
+              <article class="col-sm-12 col-md-6 text-center">
+                <form class="my-3 p-1">
+                  <div class="input-group mb-3">
+                    <input type="search" class="form-control" maxlength="50" placeholder="Que estas buscando?" aria-describedby="button-addon2">
+                    <button class="btn btn-primary btn-grad" type="submit" id="button-addon2"><i class="fas fa-search"></i></button>
+                  </div>                                    
+                </form>
+                
+                <div class="container-fluid">
+                <ul class="nav nav-pills nav-fill">
+                  <div class="container-fluid card bg-light p-2 shadow  mb-1 efectoCateg">
+                  <li class="nav-item">
+                    
+                    <a class="nav-link texto" href="/pages/error404.html">Noticias breves de la semana <i class="far fa-newspaper"></i></a>
+                  </li>
+                </div>
+                <div class="container-fluid card bg-light shadow mb-1 p-2 efectoCateg">
+                  <li class="nav-item">
+                    <a class="nav-link texto " href="/pages/error404.html">Lanzamientos 2021 <i class="fas fa-flag-checkered "></i></a>
+                  </li>
+                </div>
+                <div class="container-fluid card bg-light shadow mb-1 p-2 efectoCateg">
+                  <li class="nav-item">
+                    <a class="nav-link texto" href="/pages/error404.html">Discusion general <i class="far fa-comments"></i></i></a>
+                  </li>
+                </div>
+                <div class="container-fluid card bg-light shadow mb-1 p-2 efectoCateg">
+                  <li class="nav-item">
+                    <a class="nav-link texto" href="/pages/error404.html">Criticas <i class="fab fa-rocketchat"></i></a>
+                  </li>
+                </div>
+                </ul>
+              
+
+              <div class="container-fluid text-center offpublicidad" >
+                <a href="/pages/error404.html"><img class="my-2" src="/img/unnamed.gif" alt="publicidad renault"></a>
+                <a href="/pages/error404.html"><img class="" src="img/1dc33410-ec78-42de-b1ac-040ee3766a32.jpg" alt="publicidad fortunato fortino"></a>
+              </div>
+              
+            </div>
+              </article>
+              <article class="col-sm-12 col-md-6 my-1">
+                <h2 class="text-secondary text-center my-2">Lo más reciente</h2><hr>
+                <div class="card my-2 bg-dark" >
+                  <img src="/img/SIOMAA0.jpg" class="card-img-top" alt="Preferencias de automoviles segun edad">
+                  <div class="card-body text-light">
+                    <h5 class="card-title">En Argentina:</h5>
+                    <p class="card-text texto">Los jóvenes compran VW, los cuarentones andan en Fiat y los veteranos prefieren Toyota.</p>
+                    <a href="/pages/entradaBlog_0.html" class="btn btn-primary btn-grad1 efectoCateg texto">Ver más</a>
+                  </div>
+                </div>
+                <div class="card my-2 bg-dark" >
+                  <img src="/img/PICKUPS.jpg" class="card-img-top " alt="Volkswagen Amarok">
+                  <div class="card-body text-light">
+                    <h5 class="card-title">Inflación:</h5>
+                    <p class="card-text texto">Las pick-ups nacionales ya cuestan más de siete millones de pesos.</p>
+                    <a href="/pages/error404.html" class="btn btn-primary btn-grad1 efectoCateg texto">Ver más</a>
+                  </div>
+                </div>
+                <div class="card my-2 bg-dark " >
+                  <img src="/img/CARLOS-REUTEMANN-0.jpg" class="card-img" alt="Homenaje a Carlos Reutemann">
+                  <div class="card-body text-light">
+                    <h5 class="card-title">Adios LOLE</h5>
+                    <p class="card-text texto">Así fue el homenaje a Carlos Reutemann en el autodromo de Buenos Aires.</p>
+                    <a href="/pages/error404.html" class="btn btn-primary btn-grad1 efectoCateg texto">Ver más</a>
+                  </div>
+                </div>
+                <nav aria-label="Page navigation example text-dark">
+                  <ul class="pagination my-3 float-end">
+                    <li class="page-item">
+                      <a class="page-link btn-grad efectoCateg" href="/pages/error404.html" aria-label="Previous">
+                        <span aria-hidden="true"><i class="fas fa-long-arrow-alt-left text-light"></i></span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link efectoCateg" href="/pages/error404.html">1</a></li>
+                    <li class="page-item"><a class="page-link efectoCateg" href="/pages/error404.html">2</a></li>
+                    <li class="page-item"><a class="page-link efectoCateg" href="/pages/error404.html">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link btn-grad efectoCateg" href="/pages/error404.html" aria-label="Next">
+                        <span aria-hidden="true"><i class="fas fa-long-arrow-alt-right text-light"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+            </div>
+            
+          </section>
+    </main>
+    <!-- modal de suscripcion -->
+    <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="modalSuscripcionLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form>
+            <div class="mb-3 text-center">
+              <label for="exampleInputEmail1" class="form-label">Nombre y apellido</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">Jose Perez</div>
+            </div>
+            <div class="mb-3 text-center">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">joseperez@...</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-danger">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white bg-dark py-3 px-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 my-2 centradoResponsive">
+            <a class="navbar-brand" href="#">
+            <img class="logoRadius" src="../img/logo.png" alt="logo de keep rolling" width="100" >
+          </a>
+          </div>
+          <div class="col-sm-12 col-md-5 text-center">
+            <p>Seguinos en nuestras redes:</p>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-facebook-square fa-2x"></i
+            ></a>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-instagram-square fa-2x"></i
+            ></a>
+            <a class="text-secondary mx-2" target="_blank" href="#">
+              <i class="fab fa-twitter-square fa-2x"></i
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p>Última actualización del sitio: 30 de Julio del 2021</p>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center pt-3"> &copy;Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
